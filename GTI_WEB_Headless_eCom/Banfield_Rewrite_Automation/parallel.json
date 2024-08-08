@@ -1,0 +1,32 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "nadarajan_IlMioD",
+  "access_key": "FSjqVRLXwxjzPh6kTN2R",
+
+  "capabilities": {
+   
+  },
+
+  "environments": [
+    {
+    "app": "bs://aafbdd364289ce7402cc6a18b890054e67f97185"
+      "device": "iPhone 13 Pro Max",
+      "os_version": "15"
+    },
+    {
+    "app": "bs://65dd5ceca268ebba54d94ff72aee2d3b29d334fe"
+      "device": "Samsung Galaxy S21",
+      "os_version": "11.0"
+    }
+ {
+    "app": "bs://aafbdd364289ce7402cc6a18b890054e67f97185"
+      "device": "iPhone SE 2020",
+      "os_version": "13"
+    },
+    {
+    "app": "bs://65dd5ceca268ebba54d94ff72aee2d3b29d334fe"
+      "device": "Samsung Galaxy S10 Plus",
+      "os_version": "9.0"
+    }
+  ]
+}

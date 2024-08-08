@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel" thread-count="5" parallel="tests">
+
+    <test name="1st parallel device" >
+    <parameter name="deviceIndex" value="0"/>
+        <classes>
+            <class name="runCukesTest"/>
+        </classes>
+    </test>
+
+    <test name="2nd parallel device" >
+    <parameter name="deviceIndex" value="1"/>
+        <classes>
+            <class name="runCukesTest"/>
+        </classes>
+    </test> 
+    
+        <test name="3rd parallel device" >
+    <parameter name="deviceIndex" value="2"/>
+        <classes>
+            <class name="runCukesTest"/>
+        </classes>
+    </test>
+
+    <test name="4th parallel device" >
+    <parameter name="deviceIndex" value="3"/>
+        <classes>
+            <class name="runCukesTest"/>
+        </classes>
+    </test> 
+</suite>
